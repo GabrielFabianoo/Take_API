@@ -1,0 +1,22 @@
+{
+  "name": "take-api",
+  "version": "1.0.0",
+  "description": " API que realiza a integração com a API pública do GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GabrielFabianoo/Take_API.git"
+  },
+  "author": "Gabriel Fabiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielFabianoo/Take_API/issues"
+  },
+  "homepage": "https://github.com/GabrielFabianoo/Take_API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
