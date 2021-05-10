@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GabrielFabianoo/Take_API#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1"
   }
 }
