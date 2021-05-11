@@ -1,16 +1,13 @@
-const express = require('express')
-const router = express.Router()
-const axios = require('axios').default
+const express = require("express");
+const router = express.Router();
+const axios = require("axios").default;
 
-router.get('/', (req, res, next) => {
-    const user = axios.get('https://api.github.com/users/takenet').then((response) => 
-    {
+router.get("/", (req, res, next) => {
+    const user = axios.get("https://api.github.com/users/takenet").then((response) => {
         res.status(200).send({
-        data: response.data.avatar_url
-    })}
-    )
+            data: response.data.avatar_url,
+        });
+    });
+});
 
-})
-
-
-module.exports = router
+module.exports = router;
